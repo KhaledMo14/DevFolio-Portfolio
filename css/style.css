@@ -1,0 +1,480 @@
+*
+{
+   box-sizing: border-box;
+}
+
+body
+{
+   background-color:   #f5f5f5;
+   
+}
+
+
+.navbar-brand
+{
+   font-size: 1.5rem !important;
+}
+
+.nav-item a
+{
+   font-size: 1.2rem !important;
+}
+
+
+.navbar
+{
+   color: white !important ; 
+}
+
+.nav-item
+{
+   margin: .5rem !important;
+}
+
+.nav-item a
+{
+   color: white !important;
+}
+
+header
+{
+  height: 100vh;
+  background-image: url(../images/intro-bg.jpg);
+  background-size: 100% 100%;
+  color: white;
+  
+}
+
+
+section .text
+{
+   background-color: rgb(0, 0,0,.6); 
+   height: 90vh;
+    width: 100%;
+}
+
+section .text h1
+{
+   font-size: 4.5rem;
+}
+
+section .text h2::after
+{
+   content: "|";
+   animation-name: typing;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   ;
+}
+
+@keyframes typing
+{
+   0%
+   {
+      content: "|";
+   }
+   10%
+   {
+      content: "De|";
+   }
+   15% 
+   {
+      content: "Deve|";
+   }
+   20% 
+   {
+      content: "Develo|";
+   }
+   25%
+   {
+      content: "Develope|";
+   }
+   30%
+   {
+      content: "Developer|";
+   }
+   35%
+   {
+      content: "De|";
+   }
+   40%
+   {
+      content: "Desi|";
+   }
+   45%
+   {
+      content: "Design|";
+   }
+   50% 
+   {
+      content: "Designer|";
+   }
+   
+   
+
+}
+
+/*End of first section*/
+
+
+.About
+{
+   margin-top: 8rem;
+
+}
+
+
+.profile
+{
+   margin: 3rem 3rem 0rem 3rem;
+   border-radius: .7rem;
+}
+
+.profile-item
+{
+   margin: 3rem 3rem 0rem 3rem;
+}
+
+.progress-item
+{
+   margin: 0rem 2rem;
+}
+
+
+.about-me p
+{
+   font-size: 1.3rem;
+   font-weight: lighter;
+}
+
+/*End of about section*/
+
+.blue
+{
+   width: 100px;
+   height: 3px;
+   background-color: rgb(0, 120,255)
+}
+
+.blue2
+{
+   width: 40px;
+   height: 5px;
+   background-color: rgb(0, 120,255);
+   margin: auto;
+  
+
+}
+
+.cont 
+{
+    
+   overflow: auto;
+   border-radius: 25px !important;
+
+   
+}
+
+.circle
+{
+   width: 110px;
+   height: 110px;
+   border-radius: 55px;
+   border: solid 10px rgb(0, 120,255);
+   transition: .5s;
+   
+}
+
+.circle i
+{
+   font-size: 2.8rem;
+   
+}
+
+.circle:hover 
+{
+   background-color: rgb(0, 120,255);
+   border:  solid 10px #cde1f8;
+   
+}
+
+.circle:hover i
+{
+   color: white;
+}
+
+/*end of services section*/
+
+
+.information
+{
+   background-image: url(../images/post-3.jpg);
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   margin-top: 5rem;
+   color: white;
+   
+     
+}
+
+.circle2
+{
+   width: 90px;
+   height: 90px;
+   border-radius: 45px;
+   border: solid 10px rgb(205, 225,248);
+}
+
+.information .layer
+{
+   background-color: rgba(20, 99, 189,.8);
+   padding: 9rem;
+   
+   
+   
+}
+
+.information i 
+{
+   font-size: 1.5rem;
+}
+
+/*end of information section*/
+
+.work
+{
+   margin-top: 4rem;
+}
+
+ .blue3
+{
+   width: 40px;
+   height: 5px;
+   background-color: rgb(0, 120,255);
+   margin: auto;
+}
+
+.outer-div
+{
+   overflow: hidden;
+}
+
+.inner-div
+{
+   background-size: 100% 100%;
+   background-position: center;
+   transition: all 1s ease; 
+}
+
+.inner-div:hover
+{
+     transform: scale(1.2);
+}
+
+.work-inner i
+{
+  color: rgb(0, 120,255) ;
+  font-size: 2rem;
+}
+
+/*end of work section*/
+
+
+.work-slider
+{
+   background-image: url(../images/overlay-bg.jpg);
+
+}
+
+.work-slider .layer
+{
+   background-color: rgba(0, 120, 255,.7);
+   padding: 9rem;
+}
+
+.i-cover
+{
+   font-size: 1.8rem;
+   background-color: #fff;
+   width: 52px;
+   height: 52px;
+   border-radius: 50%;
+   color: #0078ff ;
+  
+}
+
+.carousel-indicators {
+   position: absolute;
+   right: 0;
+   bottom: -20%;
+   left: 0;
+   transform: translate(0,-20%);
+ }
+
+ .carousel-inner
+ {
+    color: white;
+ }
+
+ .carousel-inner
+ {
+    font-size: 1.2rem;
+ }
+
+
+ /*end of work slider section*/
+
+
+ .Blog
+ {
+    margin-top: 4rem;
+ }
+
+ .card-box
+ {
+    background-color:#0078ff ;
+ }
+
+ .card-img
+ {
+    position: relative !important;
+    color: white;
+ }
+
+ .card-box
+ {
+    display: inline-block;
+    position: absolute !important;
+    bottom: -7%;
+    left: 50%;
+    transform: translate(-50%);
+ }
+
+ .card-body a
+ {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+ }
+ .card-ext img
+ {
+    width: 32px;
+    height: 32px;
+ }
+
+ .card-ext
+ {
+   background-color: rgba(0,0,0,.03);
+   border-top: 1px solid rgba(0,0,0,.125);
+ }
+
+ .card-ext p
+ {
+    transition: .8s;
+ }
+ .card-ext a
+ {
+    text-decoration: none;
+    color: black;
+ }
+
+ .card-ext i 
+ {
+    padding-top: 2px;
+ }
+
+ .card-body a:hover 
+ {
+    color: rgb(0, 120,255);
+ }
+
+ .card-ext p:hover
+ {
+    color: rgb(0, 120,255);
+ }
+
+ /*end of blog section*/
+ 
+
+ .contact
+ {
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 5rem;
+    color: white;
+ }
+
+ .contact h2
+ {
+    color: black;
+ }
+
+ .contact .layer
+ {
+    background-color: rgba(0, 120, 255,.7);
+    padding: 2rem;
+ }
+
+ .contact .blue
+ {
+    height: 4px;
+ }
+
+ .contact p
+ {
+    color: black;
+    font-size: 1.3rem;
+ }
+
+.contact i
+{
+   color:rgb(0, 120,255);
+}
+
+
+.list li p
+{
+   font-size: 1rem;
+}
+
+.social-media .cont-i
+{
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   border: solid 3px rgb(0, 120,255);
+   transition: 1s;
+}
+
+
+.social-media .cont-i i 
+{
+   color: black;
+   font-size: 1.3rem;
+}
+
+.circle3:hover .cont-i
+{
+   background-color: rgb(0, 120,255);
+   border:  solid 3px #cde1f8;
+   
+}
+
+.circle3:hover i
+{
+   color: white;
+}
+
+.copyrights p
+{
+   color: white;
+   font-size: 1rem;
+}
+
+.copyrights a 
+{
+   color: white;
+   text-decoration: none;
+   font-size: 1rem;
+}
