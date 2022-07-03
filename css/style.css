@@ -330,7 +330,11 @@ section .text h2::after
 
 /*end of work section*/
 
-
+@media (min-width:200px) and (max-width:500px)
+{
+  .carousel-slide{width: 180px;
+text-align: center;}
+}
 .work-slider
 {
    background-image: url(../images/overlay-bg.jpg);
@@ -371,6 +375,8 @@ section .text h2::after
  {
     font-size: 1.2rem;
  }
+
+
 
 
  /*end of work slider section*/
